@@ -3,19 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "StorageAccountName": {
-            "value": "dynamicpricingsaqa01"
+            "value": "examplesa01"
         },
         "DatabricksName": {
-            "value": "dynamic-pricing-dbr-qa-01"
+            "value": "example-dbr-01"
         },
         "akvName": {
-            "value": "dynamicpricingkvqa01"
+            "value": "examplekv01"
         },
         "ainame": {
-            "value": "dynamic-pricing-api-qa-01"
+            "value": "example-api-01"
         },
         "AzureMLName": {
-            "value": "dynamic-pricing-ml-qa-01"
+            "value": "example-ml-01"
         }
     }
 }
