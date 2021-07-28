@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "StorageAccountName": {
+            "value": "dynamicpricingsaqa01"
+        },
+        "DatabricksName": {
+            "value": "dynamic-pricing-dbr-qa-01"
+        },
+        "akvName": {
+            "value": "dynamicpricingkvqa01"
+        },
+        "ainame": {
+            "value": "dynamic-pricing-api-qa-01"
+        },
+        "AzureMLName": {
+            "value": "dynamic-pricing-ml-qa-01"
+        }
+    }
+}
