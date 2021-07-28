@@ -11,9 +11,9 @@ param ainame string
 var tagValues = {
   CreatedBy: 'MG'
   deploymentDate: currentDate
-  project: 'Dynamic-Pricing'
-  business_unit: '276'
-  environment: 'qa'
+  project: 'Project-Name'
+  business_unit: 'anumer-or-name'
+  environment: 'nprod'
 }
 
 module sta 'Modules/storageAccount.bicep' = {
