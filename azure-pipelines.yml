@@ -1,10 +1,10 @@
 
-name: IaC-QA-Dynamic-Pricing
+name: IaC-Pipeline
 
 variables:
-  resourceGroupName: 'westjet-test'
+  resourceGroupName: 'example-rg'
   location: 'eastus2'
-  azureSubscription: 'westjet-rg-test02'
+  azureSubscription: 'devops-connection-name-to-subscription'
 pool:
   vmImage: ubuntu-latest
 
